@@ -1,3 +1,395 @@
+body {
+ color: #595c61;
+}
+
 nav {
   display: none;
+}
+
+#close-button {
+  display: none;
+  position: relative;
+  top: -90%;
+  left: 85%;
+  color: #ec5242;
+}
+
+header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 20px 50px 20px;
+}
+
+#header-section {
+  margin-top: 35px;
+}
+
+#menu {
+  color: #595c61;
+}
+
+#salutation {
+  color: #ec5242;
+  font-family: lato, sans-serif;
+  margin: 30px 0 5px 0;
+  font-size: 1.2rem;
+}
+
+#header-section h1 {
+  background: url(./images/h1-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: cocogoose, sans-serif;
+}
+
+#header-section h1 .h1-sub {
+  margin-top: -12px;
+}
+
+#header-section p {
+  border: 3px solid #fff;
+  background-color: #faf7f7;
+  font-size: 0.8rem;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 1.5;
+  margin: 20px 0 10px 0;
+}
+
+#buy-tickets {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-family: cocogoose, sans-serif;
+}
+
+#date {
+  display: block;
+  margin-top: -8px;
+  font-size: 1.5rem;
+  font-family: cocogoose, sans-serif;
+}
+
+#location {
+  display: block;
+  font-family: lato, sans-serif;
+  font-size: 0.8rem;
+  margin-top: -3px;
+}
+
+#program {
+  background-image: url(./images/program-background.jpg);
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 15px;
+}
+
+#program .division-line {
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+  opacity: 0.6;
+  margin: 15px 0 30px 0;
+}
+
+#program .times {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(82, 81, 81, 0.7);
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 0;
+  margin-left: -5px;
+  width: 100%;
+}
+
+#program button {
+  background-color: #ec5242;
+  border: none;
+  color: #fff;
+  width: 80%;
+  font-size: 1rem;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#see-program {
+  display: none;
+}
+
+#program .times span {
+  color: #fff;
+  background-color: #ec5242;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#program .times h3 {
+  color: #ec5242;
+  font-size: 18px;
+}
+
+#program .times p {
+  width: 50%;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+#featured-h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+#featured-artists .division-line {
+  display: flex;
+  justify-self: center;
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+  opacity: 0.6;
+  margin: 15px 0 30px 0;
+}
+
+#partners {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #434344;
+  padding: 30px 10px;
+}
+
+#partners h2 {
+  color: #fff;
+}
+
+#partners .division-line {
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+  opacity: 0.6;
+  margin: 15px 0 30px 0;
+}
+
+#partners #partners-wrap {
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#partners #partners-wrap span {
+  color: #979494;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: flex;
+  color: black;
+}
+
+footer .logo div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-family: cocogoose, sans-serif;
+  margin-left: 3px;
+}
+
+#footer-p {
+  font-size: 0.6rem;
+  width: 35%;
+  line-height: 1.5;
+}
+
+.featured-artists-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.img-artist {
+  width: 180px;
+  height: auto;
+  margin: 0;
+}
+
+.data-artist {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.artist-name {
+  display: flex;
+  justify-self: flex-start;
+  align-content: flex-start;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.artist-affiliation {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.division-greyline {
+  color: gray;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.artist-bio {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+
+  #featured-artists {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 40px;
+  }
+
+  .featured-artists-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .img-artist {
+    width: 150px;
+    height: auto;
+    margin: 30px 20px;
+  }
+
+  .data-artist {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .artist-name {
+    padding-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .artist-affiliation {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .division-greyline {
+    color: grey;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+  }
+
+  .artist-bio {
+    padding: 25px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #featured-artists {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 30px;
+  }
 }

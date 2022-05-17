@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./home.css">
-    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="preconnect">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e9eda9b73.js" crossorigin="anonymous"></script>
     <title>Mellisa Live Album Launch</title>
 </head>
   <body>
     <nav>
     <div id="top-nav">
-      <span><i class="fa fa-times fa-2x"></i></span>
+      <span><i id="close-button" class="fa fa-times fa-2x"></i></span>
       <ul>
       <li>
         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -50,73 +50,68 @@
       </div>
     </div>
     </nav>
-    <!--Header-->
     <header>
     <span class="menu">
       <i class="fas fa-bars fa-2x" id="menu"></i>
     </span>
-    <div id="headline">
-      <span id="welcome-words">"Hello Worshippers!"</span>
+    <div id="header-section">
+      <span id="salutation">"Hello Worshippers!"</span>
       <h1>
-      LIVE ALBUM LAUNCH
-      <span class="h1-span">Mellisa's New Album</span>
-      <!-- <span class="h1-span">2022</span> -->
+      LIVE ALBUM LAUNCH<br>
+      <span class="h1-sub">Mellisa</span><br>
+      <span class="h1-sub">2022</span>
       </h1>
       <p>
-        Yes it's here! It's time to get a personal experience with the highly anointed worshiper! She is coming to your town! 
-        Enjoy the worship experience, have lunch and dinner, book a one-to-one session, enrol in the mentorship program and so much more..
+        <span id="yes-text">Yes it's here!</span> <br><br> It's time to get a personal experience with the highly anointed worshiper! She is coming to your town! 
+        Enjoy the worship experience, have lunch and dinner, book a one-to-one session, enrol in the mentorship program and so much more...
         See the program for more details.
       </p>
-      <span id="next-class"
-      >Buy tickets before the date!
-      <span id="start-date">Date: 28.06.22 (Tue)</span></span
-      >
+      <span id="buy-tickets">Buy tickets before the date!</span>
+      <span id="date">Date: 28.06.22 (Tue)</span>
       <span id="location">Venue: @Rainbow Towers Hotel, Harare</span>
     </div>
     </header>
-    <!--Main-->
     <main>
-    <!--Main Curriculum-->
-    <section id="main-curriculum">
+    <section id="program">
       <h2>Program</h2>
-      <div class="red-line"></div>
-      <div id="languages-container">
-      <div class="languages">
+      <div class="division-line"></div>
+      <div id="times-wrap">
+      <div class="times">
         <span>
           <i class="fas fa-coffee"></i>
         </span>
         <h3>Morning Session</h3>
         <p>A morning worship session with featuring artists.</p>
       </div>
-      <div class="languages">
+      <div class="times">
         <span>
           <i class="fas fa-utensils"></i>
         </span>
         <h3>Lunch</h3>
         <p>Lunch - Mix and mingle with Mellisa.</p>
       </div>
-      <div class="languages">
+      <div class="times">
         <span>
           <i class="fas fa-headphones-alt"></i>
         </span>
         <h3>Main Album Launch</h3>
         <p>Mellisa live in concert.</p>
       </div>
-      <div class="languages">
+      <div class="times">
         <span>
           <i class="fas fa-comments"></i>
         </span>
         <h3>One-to-one Session</h3>
         <p>Get a chance to meet face-to-face privately with Mellisa.</p>
       </div>
-      <div class="languages">
+      <div class="times">
         <span>
           <i class="fas fa-handshake-alt"></i>
         </span>
         <h3>Dinner</h3>
         <p>Mix and mingle with Mellisa at dinner as she shares her story.</p>
       </div>
-      <div class="languages">
+      <div class="times">
         <span>
           <i class="fas fa-chalkboard-teacher"></i>
         </span>
@@ -124,18 +119,17 @@
         <p>Enrol into the mentorship program.</p>
       </div>
       </div>
+      <button type="button">Register Now!</button>
       <span id="see-program">SEE THE WHOLE PROGRAM</span>
     </section>
-    <!--Featured teachers-->
-    <section id="featured-teachers">
-      <h2>Featured Artists</h2>
-      <div class="red-line"></div>
+    <section id="featured-artists">
+      <h2 id="featured-h2">Featured Artists</h2>
+      <div class="division-line"></div>
     </section>
-    <!--Partners section-->
     <section id="partners">
-      <h2>Partner</h2>
-      <div class="red-line"></div>
-      <div id="partners-container">
+      <h2>Partners</h2>
+      <div class="division-line"></div>
+      <div id="partners-wrap">
       <span>Logitap</span>
       <span>Magic Pixels</span>
       <span>Park Cafeteria</span>
@@ -157,9 +151,10 @@
         </div>
       </div>
       <p id="footer-p">
-        2022 Mellisa Live Album Launch. Some Rights Reserved
+        2022 Mellisa Live Album Launch. Some Rights Reserved.
       </p>
     </footer>
     <script src="./home.js"></script>
+    <script src="./featured.js"></script>
   </body>
 </html>

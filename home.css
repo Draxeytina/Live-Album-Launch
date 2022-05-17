@@ -167,6 +167,8 @@ header {
 #program .times h3 {
   color: #ec5242;
   font-size: 18px;
+  padding: 5px 0;
+  text-align: center;
 }
 
 #program .times p {
@@ -234,6 +236,12 @@ header {
 #partners #partners-wrap span {
   color: #979494;
   font-size: 1.2rem;
+  background-color: rgba(82, 81, 81, 0.7);
+  border-radius: 6px;
+}
+
+#partners #partners-wrap span:hover {
+  color: #ec5242;
 }
 
 footer {
@@ -327,6 +335,54 @@ footer .logo div {
 }
 
 @media (min-width: 768px) {
+
+  #program h2 {
+    padding: 30px 0 0 0;
+  }
+
+  #program #times-wrap {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 70%;
+  }
+
+  #program #times-wrap .times {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+    width: 15%;
+    min-width: 160px;
+    padding: 20px 0;
+  }
+
+  #program .times span {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  #program #times-wrap .times h3 {
+    padding:  0;
+    margin-top: 0;
+  }
+
+  #program button {
+    display: none;
+  }
+
+  #program #see-program {
+    display: block;
+    text-decoration: underline;
+    padding: 50px 0;
+  }
 
   #featured-artists {
     display: grid;

@@ -242,6 +242,7 @@ header {
 
 #partners #partners-wrap span:hover {
   color: #ec5242;
+  cursor:pointer;
 }
 
 footer {
@@ -332,6 +333,136 @@ footer .logo div {
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.open-menu {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  background-color: rgba(49, 49, 49, 1);
+  /* padding-left: -400px; */
+}
+
+.open-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.top-nav #close-button {
+  display: block;
+  position: relative;
+  top: -70%;
+  left: 90%;
+  color: #ec5242;
+}
+
+.top-nav #close-button:hover {
+  cursor: pointer;
+}
+
+.top-nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+.top-nav ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.top-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-nav {
+  width: 80%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.bottom-nav #nav-logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom-nav #nav-logo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.bottom-nav #nav-logo a {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.bottom-nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+#mellisa {
+  text-align: center;
+}
+
+#logo-names a span {
+  font-size: 24px;
+}
+
+.bottom-nav ul li {
+  list-style: none;
+}
+
+.bottom-nav #campaign {
+  font-size: 20px;
+  border: 2px solid gray;
+  padding: 15px 25px;
+  margin-top: 10px;
+  color: #fff;
 }
 
 @media (min-width: 768px) {

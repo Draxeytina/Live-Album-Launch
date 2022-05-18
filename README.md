@@ -37,10 +37,8 @@ You are welcome to make any contributions, issues, and feature requests!
 If you like this project please give a ⭐️!
 
 ## Acknowledgments
-I appreciate the efforts of:
 
-* My mentor (Axel)
-* My coding partners
-* The morning session team 
-* The code reviewers 
-- Thank you 🙏
+- Original design was done by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+- <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons license of the design</a>
+- Pictures were obtained from the public domain.
+- Artists photo credit from <a href="www.facebook.com">Facebook</a>

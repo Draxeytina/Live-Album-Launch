@@ -254,6 +254,8 @@ footer {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 25px 30px;
+  width: 80%;
+  margin-left: 100px;
 }
 
 footer .logo {
@@ -720,6 +722,8 @@ footer .logo div {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     margin: 40px;
+    margin-left: 100px;
+    width: 80%;
   }
 
   .featured-artists-inner {

@@ -49,7 +49,7 @@ header {
   background-position: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: cocogoose, sans-serif;
+  font-family: 'cocogoose', sans-serif;
 }
 
 #header-section h1 .h1-sub {
@@ -181,9 +181,11 @@ header {
   display: flex;
   justify-content: center;
   padding: 30px 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-#featured-artists .division-line {
+#division-line {
   display: flex;
   justify-self: center;
   width: 50px;
@@ -465,7 +467,205 @@ footer .logo div {
   color: #fff;
 }
 
+#division-line-div {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
+
+  nav {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #e9e7e7;
+    background-color: #faf7f7;
+    -webkit-box-shadow: 0 0 8px 3px #c4c1c1;
+    box-shadow: 0 0 8px 3px #c4c1c1;
+    position: relative;
+    z-index: 1;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #595c61;
+  }
+
+  nav a:hover {
+    color: #ec5242;
+  }
+
+  nav #top-nav {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #313131;
+    padding: 10px 0;
+  }
+
+  nav #top-nav ul {
+    width: 80%;
+    min-width: 768px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 75px;
+  }
+
+  nav #top-nav ul li {
+    list-style: none;
+  }
+
+  nav #top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav #top-nav ul li a:hover {
+    color: #ec5242;
+  }
+
+  #bottom-nav {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-width: 768px;
+    padding: 15px 0;
+  }
+
+  #nav-logo {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  #nav-logo span a {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  #nav-logo div a {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-family: 'cocogoose', sans-serif;
+    margin-left: 3px;
+  }
+
+  #bottom-nav ul {
+    display: -webkit-box;
+    display: flex;
+    width: 55%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
+  #bottom-nav ul li {
+    list-style: none;
+  }
+
+  nav #bottom-nav #campaign {
+    border: 5px solid #ec5242;
+    padding: 10px;
+  }
+
+  nav #bottom-nav #campaign span {
+    color: #ec5242;
+  }
+
+  nav #bottom-nav #campaign span i {
+    margin-right: 5px;
+  }
+
+  nav #bottom-nav #campaign:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 15px 3px #ec5242;
+    box-shadow: 0 0 15px 3px #ec5242;
+  }
+
+  #nav-logo a span {
+    font-size: 19px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    background-image: url(./images/desktop-background.png);
+    background-position: top;
+  }
+
+  #header-section {
+    margin-top: 50px;
+    width: 80%;
+    min-width: 800px;
+  }
+
+  #salutation {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  #header-section h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #header-section .h1-sub {
+    margin-top: -35px;
+  }
+
+  #header-section p {
+    margin: 0 0 40px 0;
+    width: 80%;
+    max-width: 800px;
+    font-size: 1rem;
+    padding: 0 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   #program h2 {
     padding: 30px 0 0 0;
@@ -527,6 +727,22 @@ footer .logo div {
     justify-content: flex-start;
     align-items: center;
     margin: 30px 0;
+  }
+
+  #division-line-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  #division-line {
+    width: 50px;
+    height: 2px;
+    background-color: #ec5242;
+    opacity: 0.6;
+    margin: 0 0 30px 0;
   }
 
   .img-artist {

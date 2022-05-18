@@ -12,7 +12,7 @@ and related frameworks.
 ## See Project 🌐
 Follow the link to view the project:
 
-https:
+https://draxeytina.github.io/Live-Album-Launch/
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:

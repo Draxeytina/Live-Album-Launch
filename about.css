@@ -1,11 +1,11 @@
 body {
   color: #595c61;
 }
- 
+
 nav {
   display: none;
 }
- 
+
 #close-button {
   display: none;
   position: relative;
@@ -117,7 +117,7 @@ header {
   margin: 15px 0 30px 0;
 }
 
-#partners #partners-wrap {
+#partners-wrap {
   display: -webkit-box;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -128,16 +128,30 @@ header {
   gap: 20px;
 }
 
-#partners #partners-wrap span {
+#logo-names a span {
+  font-size: 24px;
+}
+
+.bottom-nav #nav-logo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+#partners-wrap span {
   color: #979494;
   font-size: 1.2rem;
   background-color: rgba(82, 81, 81, 0.7);
   border-radius: 6px;
 }
 
-#partners #partners-wrap span:hover {
+#partners-wrap span:hover {
   color: #ec5242;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 footer {
@@ -211,7 +225,7 @@ footer .logo div {
   margin-bottom: 80px;
 }
 
-.top-nav #close-button {
+#close-button {
   display: block;
   position: relative;
   top: -70%;
@@ -219,7 +233,7 @@ footer .logo div {
   color: #ec5242;
 }
 
-.top-nav #close-button:hover {
+#close-button:hover {
   cursor: pointer;
 }
 
@@ -269,16 +283,6 @@ footer .logo div {
   margin-bottom: 50px;
 }
 
-.bottom-nav #nav-logo span {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-left: 5px;
-}
-
 .bottom-nav #nav-logo a {
   color: #ec5242;
   text-decoration: none;
@@ -298,8 +302,8 @@ footer .logo div {
   text-align: center;
 }
 
-#logo-names a span {
-  font-size: 24px;
+#mellisam {
+  text-align: center;
 }
 
 .bottom-nav ul li {
@@ -353,13 +357,13 @@ main #logo-section .red-line {
   margin: 15px 0 30px 0;
 }
 
-main #logo-section p {
+#logo-section p {
   font-size: 0.8rem;
   width: 80%;
   text-align: center;
 }
 
-main #logo-section .logo-container {
+#logo-section .logo-container {
   border: 2px solid #eeeded;
   display: -webkit-box;
   display: flex;
@@ -375,11 +379,11 @@ main #logo-section .logo-container {
   width: 100%;
 }
 
-main #logo-section .logo-container span {
+.logo-container span {
   color: #ec5242;
 }
 
-main #logo-section .logo-container div {
+.logo-container div {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -388,12 +392,12 @@ main #logo-section .logo-container div {
   flex-direction: column;
 }
 
-main #logo-section .logo-container div span {
+.logo-container div span {
   color: black;
   font-family: cocogoose, sans-serif;
 }
 
-main #pastevents {
+#pastevents {
   padding: 40px 30px;
   display: -webkit-box;
   display: flex;
@@ -406,12 +410,12 @@ main #pastevents {
   align-items: center;
 }
 
-main #pastevents h2 {
+#pastevents h2 {
   text-align: center;
   font-size: 1.2rem;
 }
 
-main #pastevents .red-line {
+#pastevents .red-line {
   width: 50px;
   height: 2px;
   background-color: #ec5242;
@@ -419,19 +423,19 @@ main #pastevents .red-line {
   margin: 15px 0 30px 0;
 }
 
-main #pastevents p {
+#pastevents p {
   text-align: center;
   font-size: 0.8rem;
   width: 80%;
 }
 
-main #pastevents .containers {
+#pastevents .containers {
   width: 100%;
   height: 200px;
   margin-top: 20px;
 }
 
-main #pastevents .containers .red-div {
+#pastevents .containers .red-div {
   background-color: rgba(187, 32, 32, 0.7);
   height: 100%;
   display: -webkit-box;
@@ -460,25 +464,25 @@ main #pastevents .containers .red-div {
   font-family: cocogoose, sans-serif;
 }
 
-main #pastevents .containers .red-div span {
+#pastevents .containers .red-div span {
   color: rgba(253, 251, 251, 0.7);
 }
 
-main #pastevents #container-1 {
+#pastevents #container-1 {
   background-image: url(./images/past1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-main #pastevents #container-2 {
+#pastevents #container-2 {
   background-image: url(./images/past2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-main section#partners {
+#partners {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -497,12 +501,12 @@ main section#partners {
 
 
 @media (max-width: 768px) {
-
   header .menu {
     color: #595c61;
     cursor: pointer;
   }
-  header #salutation{
+
+  #salutation{
     text-align: center;
     color: #ec5242;
     font-family: lato, sans-serif;
@@ -533,14 +537,14 @@ main section#partners {
     margin-top: 20px;
   }
   
-  header #contact {
+  #contact {
     text-align: center;
     margin: 20px 0 10px 0;
     padding: 0 20px;
     font-size: 0.8rem;
   }
   
-  header #email {
+  #email {
     text-align: center;
     font-size: 0.8rem;
     text-decoration: underline;
@@ -553,7 +557,7 @@ main section#partners {
     margin: 30px;
   }
 
-  header #salutation {
+  #salutation {
     text-align: center;
     color: #ec5242;
     font-family: lato, sans-serif;
@@ -562,7 +566,6 @@ main section#partners {
   }
 
   #logo-section {
-    /* padding: 30px 15px; */
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -579,7 +582,7 @@ main section#partners {
     justify-content: center;
   }
   
-  main #logo-section h2 {
+  #logo-section h2 {
     text-align: center;
     width: 80%;
     font-size: 1.2rem;
@@ -599,7 +602,7 @@ main section#partners {
     text-align: center;
   }
   
-  main #logo-section .logo-container {
+  #logo-section .logo-container {
     border: 2px solid #eeeded;
     display: -webkit-box;
     display: flex;
@@ -615,11 +618,11 @@ main section#partners {
     width: 80%;
   }
   
-  main #logo-section .logo-container span {
+  .logo-container span {
     color: #ec5242;
   }
   
-  main #logo-section .logo-container div {
+  .logo-container div {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -628,12 +631,12 @@ main section#partners {
     flex-direction: column;
   }
   
-  main #logo-section .logo-container div span {
+  .logo-container div span {
     color: black;
     font-family: cocogoose, sans-serif;
   }
 
-  main #pastevents {
+  #pastevents {
     padding: 40px 30px;
     display: -webkit-box;
     display: flex;
@@ -646,12 +649,12 @@ main section#partners {
     align-items: center;
   }
   
-  main #pastevents h2 {
+  #pastevents h2 {
     text-align: center;
     font-size: 1.2rem;
   }
   
-  main #pastevents .red-line {
+  #pastevents .red-line {
     width: 50px;
     height: 2px;
     background-color: #ec5242;
@@ -659,19 +662,19 @@ main section#partners {
     margin: 15px 0 30px 0;
   }
   
-  main #pastevents p {
+  #pastevents p {
     text-align: center;
     font-size: 0.8rem;
     width: 80%;
   }
   
-  main #pastevents .containers {
+  #pastevents .containers {
     width: 100%;
     height: 200px;
     margin-top: 20px;
   }
   
-  main #pastevents .containers .red-div {
+  #pastevents .containers .red-div {
     background-color: rgba(187, 32, 32, 0.5);
     height: 100%;
     display: -webkit-box;
@@ -696,18 +699,18 @@ main section#partners {
     font-family: cocogoose, sans-serif;
   }
   
-  main #pastevents .containers .red-div span {
+  #pastevents .containers .red-div span {
     color: rgba(253, 251, 251, 0.5);
   }
   
-  main #pastevents #container-1 {
+  #pastevents #container-1 {
     background-image: url(./images/past1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   
-  main #pastevents #container-2 {
+  #pastevents #container-2 {
     background-image: url(./images/past2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -719,12 +722,10 @@ main section#partners {
     justify-content: space-between;
     width: 90%;
     margin-left: 0;
-  }
-  
+  } 
 }
 
 @media (min-width: 768px) {
-
   nav {
     display: -webkit-box;
     display: flex;
@@ -841,20 +842,20 @@ main section#partners {
     list-style: none;
   }
 
-  nav #bottom-nav #campaign {
+  #bottom-nav #campaign {
     border: 5px solid #ec5242;
     padding: 10px;
   }
 
-  nav #bottom-nav #campaign span {
+  #bottom-nav #campaign span {
     color: #ec5242;
   }
 
-  nav #bottom-nav #campaign span i {
+  #bottom-nav #campaign span i {
     margin-right: 5px;
   }
 
-  nav #bottom-nav #campaign:hover {
+  #bottom-nav #campaign:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 0 15px 3px #ec5242;
     box-shadow: 0 0 15px 3px #ec5242;
@@ -913,12 +914,11 @@ main section#partners {
     margin-top: 20px;
     width: 55%;
     font-size: 1rem;
-    /* padding: 20px 30px; */
     line-height: 2;
     margin-left: 20%;
   }
 
-  header #contact {
+  #contact {
     text-align: center;
     margin: 10px 0 10px 0;
     font-size: 1rem;
@@ -926,7 +926,7 @@ main section#partners {
     margin-right: 5%;
   }
 
-  header #email {
+  #email {
     text-align: center;
     text-decoration: underline;
     font-weight: 900;
@@ -935,39 +935,39 @@ main section#partners {
   }
 
   
-  main #logo-section {
+  #logo-section {
     padding: 50px 0 100px 0;
   }
 
-  main #logo-section h2 {
+  #logo-section h2 {
     font-size: 1.5rem;
   }
 
-  main #logo-section p {
+  #logo-section p {
     font-size: 1rem;
     margin-bottom: 30px;
   }
 
-  main #logo-section .logo-container {
+  #logo-section .logo-container {
     width: 30%;
     min-width: 500px;
     padding: 50px 30px;
   }
 
-  main #pastevents {
+  #pastevents {
     padding: 50px 0 200px 0;
   }
 
-  main #pastevents h2 {
+  #pastevents h2 {
     font-size: 1.5rem;
   }
 
-  main #pastevents p {
+  #pastevents p {
     margin-bottom: 50px;
     font-size: 1rem;
   }
 
-  main #pastevents #red-container {
+  #pastevents #red-container {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -977,19 +977,14 @@ main section#partners {
     width: 100%;
   }
 
-  main #pastevents #red-container .containers {
+  #pastevents #red-container .containers {
     width: 30%;
     min-width: 350px;
     height: 300px;
   }
 
-  main #stupasteventsdents #red-container .containers span {
+  #pastevents #red-container .containers span {
     color: #fff;
     font-weight: 600;
   }
-
-
-  
-
 }
-

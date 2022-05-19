@@ -10,9 +10,12 @@ and related frameworks.
 - CSS Grid
 
 ## See Project 🌐
-Follow the link to view the project:
+Follow the link to view the website:
 
 https://draxeytina.github.io/Live-Album-Launch/
+
+You can also click<a href="https://www.loom.com/share/be78e256066041ae9bfb00b521957101">video description </a> to get a 
+visual glimpse of the project.
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:

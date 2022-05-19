@@ -726,8 +726,9 @@ main #logo-section .red-line {
     -ms-flex-pack: center;
     justify-content: center;
     gap: 30px;
-    background-color: #313131;
-    padding: 10px 0;
+    background-color: #3e3e3e;
+    padding: 0;
+    margin-top: 0;
   }
 
   #bottom-nav ul {
@@ -960,15 +961,16 @@ main #logo-section .red-line {
     margin: 0;
     height: 150px;
     align-content: center;
+    padding: 25px 100px;
   }
 
   footer .logo {
     color: #fff;
-    justify-self: flex-end;
+    margin-left: 40px;
   }
 
   #footer-p {
     color: #fff;
-    width: 100%;
+    width: 50%;
   }
 }

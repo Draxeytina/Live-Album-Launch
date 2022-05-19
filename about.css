@@ -137,6 +137,11 @@ header {
   font-family: cocogoose, sans-serif;
 }
 
+.logo-container div span {
+  color: black;
+  font-family: cocogoose, sans-serif;
+}
+
 #partners-wrap span {
   color: #979494;
   font-size: 1.2rem;
@@ -391,11 +396,6 @@ main #logo-section .red-line {
   margin-top: 30px;
   padding: 20px 40px;
   width: 100%;
-}
-
-.logo-container div span {
-  color: black;
-  font-family: cocogoose, sans-serif;
 }
 
 #pastevents {
@@ -758,7 +758,7 @@ main #logo-section .red-line {
     color: #ec5242;
     text-decoration: none;
   }
-  
+
   #nav-logo div a {
     display: -webkit-box;
     display: flex;

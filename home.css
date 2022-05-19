@@ -147,6 +147,10 @@ header {
   display: none;
 }
 
+#logo-names a span {
+  font-size: 24px;
+}
+
 #program .times span {
   color: #fff;
   background-color: #ec5242;
@@ -233,6 +237,16 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   gap: 20px;
+}
+
+.bottom-nav #nav-logo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 5px;
 }
 
 #partners #partners-wrap span {
@@ -423,16 +437,6 @@ footer .logo div {
   margin-bottom: 50px;
 }
 
-.bottom-nav #nav-logo span {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-left: 5px;
-}
-
 .bottom-nav #nav-logo a {
   color: #ec5242;
   text-decoration: none;
@@ -454,10 +458,6 @@ footer .logo div {
 
 #mellisam {
   text-align: center;
-}
-
-#logo-names a span {
-  font-size: 24px;
 }
 
 .bottom-nav ul li {
@@ -520,6 +520,16 @@ footer .logo div {
     padding: 10px 0;
   }
 
+  #bottom-nav ul {
+    display: -webkit-box;
+    display: flex;
+    width: 55%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
   nav #top-nav ul {
     width: 80%;
     min-width: 768px;
@@ -532,8 +542,30 @@ footer .logo div {
     padding-right: 75px;
   }
 
+  #bottom-nav ul li {
+    list-style: none;
+  }
+
   nav #top-nav ul li {
     list-style: none;
+  }
+
+  #nav-logo span a {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  #nav-logo div a {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-family: 'cocogoose', sans-serif;
+    margin-left: 3px;
   }
 
   nav #top-nav ul li a {
@@ -564,41 +596,18 @@ footer .logo div {
     display: flex;
   }
 
-  #nav-logo span a {
-    color: #ec5242;
-    text-decoration: none;
-  }
-
-  #nav-logo div a {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    color: black;
-    text-decoration: none;
-    font-family: 'cocogoose', sans-serif;
-    margin-left: 3px;
-  }
-
-  #bottom-nav ul {
-    display: -webkit-box;
-    display: flex;
-    width: 55%;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    gap: 10%;
-  }
-
-  #bottom-nav ul li {
-    list-style: none;
-  }
-
   nav #bottom-nav #campaign {
     border: 5px solid #ec5242;
     padding: 10px;
+  }
+
+  #nav-logo a span {
+    font-size: 19px;
+  }
+
+  #program .times span {
+    margin-bottom: 10px;
+    padding-bottom: 0;
   }
 
   nav #bottom-nav #campaign span {
@@ -613,10 +622,6 @@ footer .logo div {
     cursor: pointer;
     -webkit-box-shadow: 0 0 15px 3px #ec5242;
     box-shadow: 0 0 15px 3px #ec5242;
-  }
-
-  #nav-logo a span {
-    font-size: 19px;
   }
 
   #menu {
@@ -685,6 +690,11 @@ footer .logo div {
     max-width: 70%;
   }
 
+  #program .times:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
   #program #times-wrap .times {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -697,11 +707,6 @@ footer .logo div {
     width: 15%;
     min-width: 160px;
     padding: 20px 0;
-  }
-
-  #program .times span {
-    margin-bottom: 10px;
-    padding-bottom: 0;
   }
 
   #program #times-wrap .times h3 {
@@ -792,11 +797,6 @@ footer .logo div {
     font-weight: 400;
     font-size: 15px;
     margin-top: 0;
-  }
-
-  #program .times:hover {
-    transform: scale(1.1);
-    cursor: pointer;
   }
 }
 

@@ -325,6 +325,7 @@ footer .logo div {
 }
 
 .bottom-nav #campaign {
+  display: none;
   font-size: 20px;
   border: 2px solid gray;
   padding: 15px 25px;
@@ -699,7 +700,7 @@ main #logo-section .red-line {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     border-bottom: 1px solid #e9e7e7;
     background-color: #faf7f7;
     -webkit-box-shadow: 0 0 8px 3px #c4c1c1;
@@ -806,6 +807,7 @@ main #logo-section .red-line {
   }
 
   #bottom-nav #campaign {
+    display: flex;
     border: 5px solid #ec5242;
     padding: 10px;
   }

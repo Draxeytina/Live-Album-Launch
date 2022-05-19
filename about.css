@@ -124,7 +124,6 @@ header {
   color: #ec5242;
 }
 
-
 .logo-container div {
   display: -webkit-box;
   display: flex;
@@ -627,14 +626,6 @@ main #logo-section .red-line {
     font-size: 1.2rem;
   }
 
-  #pastevents .red-line {
-    width: 50px;
-    height: 2px;
-    background-color: #ec5242;
-    opacity: 0.6;
-    margin: 15px 0 30px 0;
-  }
-
   #pastevents .containers {
     width: 100%;
     height: 200px;
@@ -817,7 +808,7 @@ main #logo-section .red-line {
   #nav-logo a span {
     font-size: 19px;
   }
-  
+
   #bottom-nav #campaign span {
     color: #ec5242;
   }

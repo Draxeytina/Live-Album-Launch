@@ -120,6 +120,31 @@ header {
   gap: 20px;
 }
 
+.logo-container span {
+  color: #ec5242;
+}
+
+
+.logo-container div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.red-div span {
+  font-family: cocogoose, sans-serif;
+}
+
+#partners-wrap span {
+  color: #979494;
+  font-size: 1.2rem;
+  background-color: rgba(82, 81, 81, 0.7);
+  border-radius: 6px;
+}
+
 #logo-names a span {
   font-size: 24px;
 }
@@ -132,13 +157,6 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-left: 5px;
-}
-
-#partners-wrap span {
-  color: #979494;
-  font-size: 1.2rem;
-  background-color: rgba(82, 81, 81, 0.7);
-  border-radius: 6px;
 }
 
 #partners-wrap span:hover {
@@ -335,6 +353,11 @@ main #logo-section {
   border-bottom: 2px solid #eeeded;
 }
 
+#pastevents h2 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 main #logo-section h2 {
   text-align: center;
   width: 80%;
@@ -371,19 +394,6 @@ main #logo-section .red-line {
   width: 100%;
 }
 
-.logo-container span {
-  color: #ec5242;
-}
-
-.logo-container div {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
 .logo-container div span {
   color: black;
   font-family: cocogoose, sans-serif;
@@ -400,19 +410,6 @@ main #logo-section .red-line {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-#pastevents h2 {
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-#pastevents .red-line {
-  width: 50px;
-  height: 2px;
-  background-color: #ec5242;
-  opacity: 0.6;
-  margin: 15px 0 30px 0;
 }
 
 #pastevents p {
@@ -449,10 +446,6 @@ main #logo-section .red-line {
   color: #fff;
   font-size: 1.5rem;
   margin-bottom: 15px;
-  font-family: cocogoose, sans-serif;
-}
-
-.red-div span {
   font-family: cocogoose, sans-serif;
 }
 
@@ -554,12 +547,26 @@ main #logo-section .red-line {
     font-size: 1.2rem;
   }
 
+  #pastevents .red-line {
+    width: 50px;
+    height: 2px;
+    background-color: #ec5242;
+    opacity: 0.6;
+    margin: 15px 0 30px 0;
+  }
+
   main #logo-section .red-line {
     width: 50px;
     height: 2px;
     background-color: #ec5242;
     opacity: 0.6;
     margin: 15px 0 30px 0;
+  }
+
+  #pastevents p {
+    text-align: center;
+    font-size: 0.8rem;
+    width: 80%;
   }
 
   main #logo-section p {
@@ -626,12 +633,6 @@ main #logo-section .red-line {
     background-color: #ec5242;
     opacity: 0.6;
     margin: 15px 0 30px 0;
-  }
-
-  #pastevents p {
-    text-align: center;
-    font-size: 0.8rem;
-    width: 80%;
   }
 
   #pastevents .containers {
@@ -732,6 +733,16 @@ main #logo-section .red-line {
     padding: 10px 0;
   }
 
+  #bottom-nav ul {
+    display: -webkit-box;
+    display: flex;
+    width: 55%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
   nav #top-nav ul {
     width: 80%;
     min-width: 768px;
@@ -744,8 +755,30 @@ main #logo-section .red-line {
     padding-right: 75px;
   }
 
+  #bottom-nav ul li {
+    list-style: none;
+  }
+
   nav #top-nav ul li {
     list-style: none;
+  }
+
+  #nav-logo span a {
+    color: #ec5242;
+    text-decoration: none;
+  }
+  
+  #nav-logo div a {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-family: 'cocogoose', sans-serif;
+    margin-left: 3px;
   }
 
   nav #top-nav ul li a {
@@ -776,43 +809,15 @@ main #logo-section .red-line {
     display: flex;
   }
 
-  #nav-logo span a {
-    color: #ec5242;
-    text-decoration: none;
-  }
-
-  #nav-logo div a {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    color: black;
-    text-decoration: none;
-    font-family: 'cocogoose', sans-serif;
-    margin-left: 3px;
-  }
-
-  #bottom-nav ul {
-    display: -webkit-box;
-    display: flex;
-    width: 55%;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    gap: 10%;
-  }
-
-  #bottom-nav ul li {
-    list-style: none;
-  }
-
   #bottom-nav #campaign {
     border: 5px solid #ec5242;
     padding: 10px;
   }
 
+  #nav-logo a span {
+    font-size: 19px;
+  }
+  
   #bottom-nav #campaign span {
     color: #ec5242;
   }
@@ -825,10 +830,6 @@ main #logo-section .red-line {
     cursor: pointer;
     -webkit-box-shadow: 0 0 15px 3px #ec5242;
     box-shadow: 0 0 15px 3px #ec5242;
-  }
-
-  #nav-logo a span {
-    font-size: 19px;
   }
 
   #menu {

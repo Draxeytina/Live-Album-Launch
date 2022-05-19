@@ -355,6 +355,7 @@ main #logo-section {
   -ms-flex-align: center;
   align-items: center;
   border-bottom: 2px solid #eeeded;
+  width: 95%;
 }
 
 #pastevents h2 {

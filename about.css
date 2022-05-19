@@ -955,7 +955,7 @@ main #logo-section .red-line {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
-    background-color: #434344;
+    background-color: #2e2e2e;
     width: 100%;
     margin: 0;
     height: 150px;

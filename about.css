@@ -82,7 +82,7 @@ header {
 
 #partners {
   display: -webkit-box;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -700,7 +700,7 @@ main #logo-section .red-line {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid #e9e7e7;
     background-color: #faf7f7;
     -webkit-box-shadow: 0 0 8px 3px #c4c1c1;
@@ -949,5 +949,26 @@ main #logo-section .red-line {
   #pastevents #red-container .containers span {
     color: #fff;
     font-weight: 600;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    background-color: #434344;
+    width: 100%;
+    margin: 0;
+    height: 150px;
+    align-content: center;
+  }
+
+  footer .logo {
+    color: #fff;
+    justify-self: flex-end;
+  }
+
+  #footer-p {
+    color: #fff;
+    width: 100%;
   }
 }

@@ -240,7 +240,7 @@ footer .logo div {
 }
 
 #close-button {
-  display: block;
+  display: none;
   position: relative;
   top: -70%;
   left: 90%;
@@ -494,6 +494,10 @@ main #logo-section .red-line {
     padding: 10px;
     line-height: 1.5;
     margin-top: 20px;
+  }
+
+  #close-button {
+    display: block;
   }
 
   #contact {

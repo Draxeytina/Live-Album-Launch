@@ -1,4 +1,4 @@
-# Mellisa Live Album Launch 
+# Live Album Launch 
 This is part of Microverse capstone project 1 to demonstrate understanding of HTML5, CSS3, JavaScript 
 and related frameworks.
 
